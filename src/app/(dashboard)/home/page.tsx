@@ -47,7 +47,7 @@ export default function DashboardPage() {
     async function load() {
       try {
         const [dash] = await Promise.all([
-          apiRequest<DashboardData>('/expenses/dashboard'),
+          apiRequest<DashboardData>('/expenses/home'),
           fetchBudgets(now.getMonth() + 1, now.getFullYear()),
         ]);
         setDashboard(dash);

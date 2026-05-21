@@ -12,7 +12,7 @@ import {
 import clsx from 'clsx';
 
 const NAV = [
-  { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+  { href: '/home', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/expenses', label: 'Expenses', icon: Receipt },
   { href: '/budgets', label: 'Budgets', icon: Target },
   { href: '/settings', label: 'Settings', icon: Settings },
